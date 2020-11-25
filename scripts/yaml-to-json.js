@@ -3,8 +3,8 @@ const YAML = require('yaml');
 
 const removeFormatting = require('./formatHelper');
 
-const readFileRoot = './data/yaml';
-const writeFileRoot = './data/json/unformatted';
+const readFileRoot = '../data/yaml';
+const writeFileRoot = '../data/json/unformatted';
 const yamlExtensionRegExp = RegExp(/.yaml/);
 
 const fileToJson = async (file) => {
